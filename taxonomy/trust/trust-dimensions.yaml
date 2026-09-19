@@ -1,0 +1,29 @@
+version: "0.1.0"
+trust_dimensions:
+  - id: AITRT-TRUST-001
+    name: Safety
+    definition: Freedom from unacceptable harm arising from AI system behavior.
+  - id: AITRT-TRUST-002
+    name: Security & Resilience
+    definition: Resistance to malicious manipulation and ability to withstand disruptions.
+  - id: AITRT-TRUST-003
+    name: Reliability
+    definition: Consistent performance under expected operating conditions.
+  - id: AITRT-TRUST-004
+    name: Fairness
+    definition: Equitable treatment and avoidance of unjustified disparate outcomes.
+  - id: AITRT-TRUST-005
+    name: Privacy
+    definition: Appropriate protection and governance of personal and sensitive information.
+  - id: AITRT-TRUST-006
+    name: Transparency
+    definition: Availability of information needed to understand an AI system and its use.
+  - id: AITRT-TRUST-007
+    name: Explainability
+    definition: Ability to provide understandable reasons or explanations for relevant outputs.
+  - id: AITRT-TRUST-008
+    name: Accountability
+    definition: Clear assignment of responsibility for AI system decisions and outcomes.
+  - id: AITRT-TRUST-009
+    name: Human Oversight
+    definition: Appropriate human ability to supervise, intervene, override, or escalate AI behavior.
