@@ -1,15 +1,1 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "AITRT Risk",
-  "type": "object",
-  "required": ["id", "name", "domain_id", "definition"],
-  "properties": {
-    "id": {"type": "string", "pattern": "^AITRT-RISK-[A-Z0-9-]+$"},
-    "name": {"type": "string", "minLength": 1},
-    "domain_id": {"type": "string", "pattern": "^AITRT-DOMAIN-[0-9]+$"},
-    "definition": {"type": "string", "minLength": 1},
-    "trust_dimensions": {"type": "array", "items": {"type": "string"}},
-    "lifecycle_stages": {"type": "array", "items": {"type": "string"}}
-  },
-  "additionalProperties": true
-}
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"AITRT Risk","type":"object","required":["id","name","domain_id","definition"],"properties":{"id":{"type":"string","pattern":"^AITRT-RISK-[A-Z0-9-]+$"},"name":{"type":"string","minLength":1},"domain_id":{"type":"string","pattern":"^AITRT-DOMAIN-[0-9]+$"},"definition":{"type":"string","minLength":1},"trust_dimensions":{"type":"array","items":{"type":"string"}},"lifecycle_stages":{"type":"array","items":{"type":"string"}}},"additionalProperties":true}

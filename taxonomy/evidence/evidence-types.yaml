@@ -1,20 +1,11 @@
 version: "0.1.0"
 evidence_types:
-  - id: AITRT-EVID-001
-    name: Dataset Assessment Report
-  - id: AITRT-EVID-002
-    name: Model Validation Report
-  - id: AITRT-EVID-003
-    name: Fairness Assessment
-  - id: AITRT-EVID-004
-    name: Calibration Report
-  - id: AITRT-EVID-005
-    name: Adversarial Test Report
-  - id: AITRT-EVID-006
-    name: Monitoring Dashboard Export
-  - id: AITRT-EVID-007
-    name: Incident Record
-  - id: AITRT-EVID-008
-    name: AI System Documentation
-  - id: AITRT-EVID-009
-    name: Regulatory Assessment Record
+  - {id: AITRT-EVID-001, name: Dataset Assessment Report}
+  - {id: AITRT-EVID-002, name: Model Validation Report}
+  - {id: AITRT-EVID-003, name: Fairness Assessment}
+  - {id: AITRT-EVID-004, name: Calibration Report}
+  - {id: AITRT-EVID-005, name: Adversarial Test Report}
+  - {id: AITRT-EVID-006, name: Monitoring Dashboard Export}
+  - {id: AITRT-EVID-007, name: Incident Record}
+  - {id: AITRT-EVID-008, name: AI System Documentation}
+  - {id: AITRT-EVID-009, name: Regulatory Assessment Record}

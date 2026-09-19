@@ -1,16 +1,9 @@
 version: "0.1.0"
 risk_domains:
-  - id: AITRT-DOMAIN-001
-    name: Data Risk
-  - id: AITRT-DOMAIN-002
-    name: Model Risk
-  - id: AITRT-DOMAIN-003
-    name: AI Safety Risk
-  - id: AITRT-DOMAIN-004
-    name: Security Risk
-  - id: AITRT-DOMAIN-005
-    name: Human & Societal Risk
-  - id: AITRT-DOMAIN-006
-    name: Governance Risk
-  - id: AITRT-DOMAIN-007
-    name: Regulatory & Compliance Risk
+  - {id: AITRT-DOMAIN-001, name: Data Risk}
+  - {id: AITRT-DOMAIN-002, name: Model Risk}
+  - {id: AITRT-DOMAIN-003, name: AI Safety Risk}
+  - {id: AITRT-DOMAIN-004, name: Security Risk}
+  - {id: AITRT-DOMAIN-005, name: Human & Societal Risk}
+  - {id: AITRT-DOMAIN-006, name: Governance Risk}
+  - {id: AITRT-DOMAIN-007, name: Regulatory & Compliance Risk}

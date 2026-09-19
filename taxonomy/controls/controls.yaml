@@ -1,47 +1,17 @@
 version: "0.1.0"
 controls:
-  - id: AITRT-CTRL-001
-    name: Dataset Representativeness Assessment
-    mitigates: [AITRT-RISK-DATA-001]
-  - id: AITRT-CTRL-002
-    name: Data Quality Validation
-    mitigates: [AITRT-RISK-DATA-002]
-  - id: AITRT-CTRL-003
-    name: Data Lineage and Provenance Tracking
-    mitigates: [AITRT-RISK-DATA-003]
-  - id: AITRT-CTRL-004
-    name: Independent Model Validation
-    mitigates: [AITRT-RISK-MODEL-001]
-  - id: AITRT-CTRL-005
-    name: Calibration Testing
-    mitigates: [AITRT-RISK-MODEL-003]
-  - id: AITRT-CTRL-006
-    name: Edge-Case and Scenario Testing
-    mitigates: [AITRT-RISK-SAFETY-002, AITRT-RISK-MODEL-001]
-  - id: AITRT-CTRL-007
-    name: Human Override and Escalation
-    mitigates: [AITRT-RISK-SAFETY-003, AITRT-RISK-HS-003]
-  - id: AITRT-CTRL-008
-    name: Adversarial Security Testing
-    mitigates: [AITRT-RISK-SEC-001, AITRT-RISK-SEC-004]
-  - id: AITRT-CTRL-009
-    name: Secure Supply Chain Controls
-    mitigates: [AITRT-RISK-SEC-002, AITRT-RISK-SEC-003, AITRT-RISK-REG-003]
-  - id: AITRT-CTRL-010
-    name: Fairness and Subgroup Testing
-    mitigates: [AITRT-RISK-HS-001]
-  - id: AITRT-CTRL-011
-    name: Accessibility Testing
-    mitigates: [AITRT-RISK-HS-002]
-  - id: AITRT-CTRL-012
-    name: AI System Accountability Assignment
-    mitigates: [AITRT-RISK-GOV-001]
-  - id: AITRT-CTRL-013
-    name: AI Documentation and Recordkeeping
-    mitigates: [AITRT-RISK-GOV-002, AITRT-RISK-REG-002]
-  - id: AITRT-CTRL-014
-    name: Post-Deployment Monitoring
-    mitigates: [AITRT-RISK-MODEL-002, AITRT-RISK-GOV-003]
-  - id: AITRT-CTRL-015
-    name: Regulatory Applicability Assessment
-    mitigates: [AITRT-RISK-REG-001, AITRT-RISK-REG-002]
+  - {id: AITRT-CTRL-001, name: Dataset Representativeness Assessment, mitigates: [AITRT-RISK-DATA-001]}
+  - {id: AITRT-CTRL-002, name: Data Quality Validation, mitigates: [AITRT-RISK-DATA-002]}
+  - {id: AITRT-CTRL-003, name: Data Lineage and Provenance Tracking, mitigates: [AITRT-RISK-DATA-003]}
+  - {id: AITRT-CTRL-004, name: Independent Model Validation, mitigates: [AITRT-RISK-MODEL-001]}
+  - {id: AITRT-CTRL-005, name: Calibration Testing, mitigates: [AITRT-RISK-MODEL-003]}
+  - {id: AITRT-CTRL-006, name: Edge-Case and Scenario Testing, mitigates: [AITRT-RISK-SAFETY-002, AITRT-RISK-MODEL-001]}
+  - {id: AITRT-CTRL-007, name: Human Override and Escalation, mitigates: [AITRT-RISK-SAFETY-003, AITRT-RISK-HS-003]}
+  - {id: AITRT-CTRL-008, name: Adversarial Security Testing, mitigates: [AITRT-RISK-SEC-001, AITRT-RISK-SEC-004]}
+  - {id: AITRT-CTRL-009, name: Secure Supply Chain Controls, mitigates: [AITRT-RISK-SEC-002, AITRT-RISK-SEC-003, AITRT-RISK-REG-003]}
+  - {id: AITRT-CTRL-010, name: Fairness and Subgroup Testing, mitigates: [AITRT-RISK-HS-001]}
+  - {id: AITRT-CTRL-011, name: Accessibility Testing, mitigates: [AITRT-RISK-HS-002]}
+  - {id: AITRT-CTRL-012, name: AI System Accountability Assignment, mitigates: [AITRT-RISK-GOV-001]}
+  - {id: AITRT-CTRL-013, name: AI Documentation and Recordkeeping, mitigates: [AITRT-RISK-GOV-002, AITRT-RISK-REG-002]}
+  - {id: AITRT-CTRL-014, name: Post-Deployment Monitoring, mitigates: [AITRT-RISK-MODEL-002, AITRT-RISK-GOV-003]}
+  - {id: AITRT-CTRL-015, name: Regulatory Applicability Assessment, mitigates: [AITRT-RISK-REG-001, AITRT-RISK-REG-002]}

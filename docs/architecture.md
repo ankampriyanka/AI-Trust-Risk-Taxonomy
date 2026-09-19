@@ -1,6 +1,6 @@
 # AITRT Architecture
 
-AITRT is designed as a knowledge layer that can later be materialized as YAML, normalized JSON/CSV, or a graph database.
+AITRT is a knowledge layer that can later be materialized as YAML, normalized JSON/CSV, or a graph database.
 
 ```text
                  External Frameworks

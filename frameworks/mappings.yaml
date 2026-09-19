@@ -1,38 +1,8 @@
 version: "0.1.0"
 mappings:
-  - id: AITRT-MAP-001
-    aitrt_id: AITRT-RISK-SEC-001
-    framework: MITRE ATLAS
-    relationship: related-to
-    status: needs-verification
-    source: https://atlas.mitre.org/
-  - id: AITRT-MAP-002
-    aitrt_id: AITRT-RISK-SEC-004
-    framework: OWASP GenAI Security Project
-    relationship: related-to
-    status: needs-verification
-    source: https://genai.owasp.org/
-  - id: AITRT-MAP-003
-    aitrt_id: AITRT-RISK-GOV-003
-    framework: NIST AI RMF 1.0
-    relationship: related-to
-    status: needs-verification
-    source: https://www.nist.gov/itl/ai-risk-management-framework
-  - id: AITRT-MAP-004
-    aitrt_id: AITRT-RISK-GOV-001
-    framework: ISO/IEC 42001:2023
-    relationship: related-to
-    status: needs-verification
-    source: https://www.iso.org/standard/81230.html
-  - id: AITRT-MAP-005
-    aitrt_id: AITRT-RISK-GOV-003
-    framework: ISO/IEC 23894:2023
-    relationship: related-to
-    status: needs-verification
-    source: https://www.iso.org/standard/77396.html
-  - id: AITRT-MAP-006
-    aitrt_id: AITRT-RISK-REG-001
-    framework: EU AI Act
-    relationship: related-to
-    status: needs-verification
-    source: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  - {id: AITRT-MAP-001, aitrt_id: AITRT-RISK-SEC-001, framework: MITRE ATLAS, relationship: related-to, status: needs-verification, source: https://atlas.mitre.org/}
+  - {id: AITRT-MAP-002, aitrt_id: AITRT-RISK-SEC-004, framework: OWASP GenAI Security Project, relationship: related-to, status: needs-verification, source: https://genai.owasp.org/}
+  - {id: AITRT-MAP-003, aitrt_id: AITRT-RISK-GOV-003, framework: NIST AI RMF 1.0, relationship: related-to, status: needs-verification, source: https://www.nist.gov/itl/ai-risk-management-framework}
+  - {id: AITRT-MAP-004, aitrt_id: AITRT-RISK-GOV-001, framework: ISO/IEC 42001:2023, relationship: related-to, status: needs-verification, source: https://www.iso.org/standard/81230.html}
+  - {id: AITRT-MAP-005, aitrt_id: AITRT-RISK-GOV-003, framework: ISO/IEC 23894:2023, relationship: related-to, status: needs-verification, source: https://www.iso.org/standard/77396.html}
+  - {id: AITRT-MAP-006, aitrt_id: AITRT-RISK-REG-001, framework: EU AI Act, relationship: related-to, status: needs-verification, source: https://eur-lex.europa.eu/eli/reg/2024/1689/oj

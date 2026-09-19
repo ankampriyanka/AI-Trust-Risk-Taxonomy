@@ -11,4 +11,4 @@ AITRT treats external frameworks and standards as authoritative sources.
 - ISO/IEC 23894:2023: https://www.iso.org/standard/77396.html
 - EU AI Act: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
-Detailed mappings are deliberately marked for verification until they have been checked against the relevant authoritative version and scope.
+Detailed mappings are marked for verification until checked against the authoritative version and scope.

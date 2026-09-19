@@ -1,20 +1,8 @@
 version: "0.1.0"
 scenarios:
-  - id: AITRT-SCEN-001
-    name: Underrepresented Operating Context
-    risks: [AITRT-RISK-DATA-001, AITRT-RISK-SAFETY-002]
-  - id: AITRT-SCEN-002
-    name: High-Confidence Incorrect Output
-    risks: [AITRT-RISK-MODEL-003, AITRT-RISK-SAFETY-001]
-  - id: AITRT-SCEN-003
-    name: Adversarial Input Manipulation
-    risks: [AITRT-RISK-SEC-001]
-  - id: AITRT-SCEN-004
-    name: Prompt Instruction Override
-    risks: [AITRT-RISK-SEC-004]
-  - id: AITRT-SCEN-005
-    name: Unclear Accountability
-    risks: [AITRT-RISK-GOV-001]
-  - id: AITRT-SCEN-006
-    name: Compliance Evidence Gap
-    risks: [AITRT-RISK-REG-002]
+  - {id: AITRT-SCEN-001, name: Underrepresented Operating Context, risks: [AITRT-RISK-DATA-001, AITRT-RISK-SAFETY-002]}
+  - {id: AITRT-SCEN-002, name: High-Confidence Incorrect Output, risks: [AITRT-RISK-MODEL-003, AITRT-RISK-SAFETY-001]}
+  - {id: AITRT-SCEN-003, name: Adversarial Input Manipulation, risks: [AITRT-RISK-SEC-001]}
+  - {id: AITRT-SCEN-004, name: Prompt Instruction Override, risks: [AITRT-RISK-SEC-004]}
+  - {id: AITRT-SCEN-005, name: Unclear Accountability, risks: [AITRT-RISK-GOV-001]}
+  - {id: AITRT-SCEN-006, name: Compliance Evidence Gap, risks: [AITRT-RISK-REG-002]}
