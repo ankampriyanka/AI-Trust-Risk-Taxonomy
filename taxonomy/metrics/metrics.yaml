@@ -1,0 +1,38 @@
+version: "0.1.0"
+metrics:
+  - id: AITRT-METRIC-001
+    name: Accuracy
+    category: performance
+  - id: AITRT-METRIC-002
+    name: Macro-F1
+    category: performance
+  - id: AITRT-METRIC-003
+    name: False Negative Rate
+    category: performance
+  - id: AITRT-METRIC-004
+    name: False Positive Rate
+    category: performance
+  - id: AITRT-METRIC-005
+    name: Expected Calibration Error
+    category: calibration
+  - id: AITRT-METRIC-006
+    name: Brier Score
+    category: calibration
+  - id: AITRT-METRIC-007
+    name: Disparate Impact
+    category: fairness
+  - id: AITRT-METRIC-008
+    name: Equal Opportunity Difference
+    category: fairness
+  - id: AITRT-METRIC-009
+    name: Attack Success Rate
+    category: security
+  - id: AITRT-METRIC-010
+    name: Model Drift
+    category: monitoring
+  - id: AITRT-METRIC-011
+    name: Control Coverage
+    category: governance
+  - id: AITRT-METRIC-012
+    name: Evidence Completeness
+    category: governance
