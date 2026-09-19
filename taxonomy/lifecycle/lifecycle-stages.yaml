@@ -1,0 +1,16 @@
+version: "0.1.0"
+lifecycle_stages:
+  - id: AITRT-LIFE-001
+    name: Concept & Design
+  - id: AITRT-LIFE-002
+    name: Data
+  - id: AITRT-LIFE-003
+    name: Development
+  - id: AITRT-LIFE-004
+    name: Validation & Testing
+  - id: AITRT-LIFE-005
+    name: Deployment
+  - id: AITRT-LIFE-006
+    name: Operations & Monitoring
+  - id: AITRT-LIFE-007
+    name: Retirement & Disposal
