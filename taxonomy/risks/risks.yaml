@@ -1,0 +1,134 @@
+version: "0.1.0"
+risks:
+  - id: AITRT-RISK-DATA-001
+    name: Data Representativeness Risk
+    domain_id: AITRT-DOMAIN-001
+    definition: Risk that data does not adequately represent relevant populations, contexts, or operating conditions.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-004, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-002, AITRT-LIFE-004]
+  - id: AITRT-RISK-DATA-002
+    name: Data Quality Risk
+    domain_id: AITRT-DOMAIN-001
+    definition: Risk that inaccurate, incomplete, inconsistent, stale, or otherwise unsuitable data degrades system behavior.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-002, AITRT-LIFE-003, AITRT-LIFE-004]
+  - id: AITRT-RISK-DATA-003
+    name: Data Provenance Risk
+    domain_id: AITRT-DOMAIN-001
+    definition: Risk that data origin, transformation history, rights, or lineage cannot be adequately established.
+    trust_dimensions: [AITRT-TRUST-005, AITRT-TRUST-006, AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-002, AITRT-LIFE-003]
+  - id: AITRT-RISK-MODEL-001
+    name: Validity Risk
+    domain_id: AITRT-DOMAIN-002
+    definition: Risk that a model does not perform adequately for its intended purpose and operating conditions.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-003, AITRT-LIFE-004, AITRT-LIFE-005]
+  - id: AITRT-RISK-MODEL-002
+    name: Model Drift Risk
+    domain_id: AITRT-DOMAIN-002
+    definition: Risk that model performance or input distributions change after deployment.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-MODEL-003
+    name: Calibration Risk
+    domain_id: AITRT-DOMAIN-002
+    definition: Risk that model confidence does not appropriately correspond to observed correctness.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SAFETY-001
+    name: Unsafe Failure Risk
+    domain_id: AITRT-DOMAIN-003
+    definition: Risk that system failure or incorrect behavior creates unacceptable safety consequences.
+    trust_dimensions: [AITRT-TRUST-001, AITRT-TRUST-002]
+    lifecycle_stages: [AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SAFETY-002
+    name: Edge-Case Failure Risk
+    domain_id: AITRT-DOMAIN-003
+    definition: Risk that uncommon or out-of-distribution conditions cause unacceptable behavior.
+    trust_dimensions: [AITRT-TRUST-001, AITRT-TRUST-003]
+    lifecycle_stages: [AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SAFETY-003
+    name: Insufficient Human Intervention Risk
+    domain_id: AITRT-DOMAIN-003
+    definition: Risk that people cannot appropriately supervise, intervene, override, or escalate system behavior.
+    trust_dimensions: [AITRT-TRUST-009, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SEC-001
+    name: Adversarial Manipulation Risk
+    domain_id: AITRT-DOMAIN-004
+    definition: Risk that crafted inputs or interactions cause unintended model or system behavior.
+    trust_dimensions: [AITRT-TRUST-002, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-003, AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SEC-002
+    name: Data or Model Poisoning Risk
+    domain_id: AITRT-DOMAIN-004
+    definition: Risk that malicious or compromised data or model artifacts alter system behavior.
+    trust_dimensions: [AITRT-TRUST-002, AITRT-TRUST-003]
+    lifecycle_stages: [AITRT-LIFE-002, AITRT-LIFE-003]
+  - id: AITRT-RISK-SEC-003
+    name: Model Extraction Risk
+    domain_id: AITRT-DOMAIN-004
+    definition: Risk of unauthorized reconstruction or replication of model behavior or parameters.
+    trust_dimensions: [AITRT-TRUST-002]
+    lifecycle_stages: [AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-SEC-004
+    name: Prompt or Context Manipulation Risk
+    domain_id: AITRT-DOMAIN-004
+    definition: Risk that untrusted instructions or context alter intended behavior of generative or agentic systems.
+    trust_dimensions: [AITRT-TRUST-002, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-HS-001
+    name: Harmful Bias Risk
+    domain_id: AITRT-DOMAIN-005
+    definition: Risk of unjustified disparities in system performance or outcomes across relevant groups.
+    trust_dimensions: [AITRT-TRUST-004, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-002, AITRT-LIFE-003, AITRT-LIFE-004, AITRT-LIFE-006]
+  - id: AITRT-RISK-HS-002
+    name: Accessibility Risk
+    domain_id: AITRT-DOMAIN-005
+    definition: Risk that people with different abilities or access conditions cannot appropriately use or benefit from the system.
+    trust_dimensions: [AITRT-TRUST-004, AITRT-TRUST-009]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-004, AITRT-LIFE-005]
+  - id: AITRT-RISK-HS-003
+    name: Overreliance Risk
+    domain_id: AITRT-DOMAIN-005
+    definition: Risk that users place inappropriate reliance on AI outputs or automation.
+    trust_dimensions: [AITRT-TRUST-009, AITRT-TRUST-006, AITRT-TRUST-001]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-GOV-001
+    name: Accountability Gap Risk
+    domain_id: AITRT-DOMAIN-006
+    definition: Risk that ownership and responsibility for AI system decisions, controls, or incidents are unclear.
+    trust_dimensions: [AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-GOV-002
+    name: Documentation Deficiency Risk
+    domain_id: AITRT-DOMAIN-006
+    definition: Risk that required technical, operational, or governance information is missing or inadequate.
+    trust_dimensions: [AITRT-TRUST-006, AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-003, AITRT-LIFE-004, AITRT-LIFE-005]
+  - id: AITRT-RISK-GOV-003
+    name: Monitoring Gap Risk
+    domain_id: AITRT-DOMAIN-006
+    definition: Risk that post-deployment monitoring does not detect meaningful degradation, incidents, or control failures.
+    trust_dimensions: [AITRT-TRUST-003, AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-REG-001
+    name: Regulatory Classification Risk
+    domain_id: AITRT-DOMAIN-007
+    definition: Risk that an AI system is incorrectly classified or its applicable obligations are misunderstood.
+    trust_dimensions: [AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-005]
+  - id: AITRT-RISK-REG-002
+    name: Compliance Evidence Risk
+    domain_id: AITRT-DOMAIN-007
+    definition: Risk that required evidence cannot demonstrate compliance or control effectiveness.
+    trust_dimensions: [AITRT-TRUST-006, AITRT-TRUST-008]
+    lifecycle_stages: [AITRT-LIFE-003, AITRT-LIFE-004, AITRT-LIFE-005, AITRT-LIFE-006]
+  - id: AITRT-RISK-REG-003
+    name: Third-Party Dependency Risk
+    domain_id: AITRT-DOMAIN-007
+    definition: Risk arising from external AI models, data, APIs, infrastructure, or suppliers.
+    trust_dimensions: [AITRT-TRUST-002, AITRT-TRUST-008, AITRT-TRUST-003]
+    lifecycle_stages: [AITRT-LIFE-001, AITRT-LIFE-003, AITRT-LIFE-005, AITRT-LIFE-006]
