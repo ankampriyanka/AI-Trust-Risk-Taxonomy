@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AITRT Entity",
+  "type": "object",
+  "required": ["id", "name"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^AITRT-[A-Z0-9-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "definition": {"type": "string"},
+    "description": {"type": "string"}
+  },
+  "additionalProperties": true
+}
