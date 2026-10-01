@@ -1,3 +1,9 @@
+> **Portfolio focus:** Responsible AI · AI Governance · AI Assurance · AI Risk & Trust
+>
+> This is the canonical repository for the AI Trust & Risk Taxonomy (AITRT). It is part of my broader research work on connecting AI risk to lifecycle controls, metrics and evidence.
+
+---
+
 # AI Trust & Risk Taxonomy (AITRT)
 
 **AI Trust & Risk Taxonomy (AITRT)** is an open, machine-readable knowledge layer connecting AI risks, trust characteristics, lifecycle stages, risk scenarios, controls, metrics, evidence, and established AI governance and security frameworks.
